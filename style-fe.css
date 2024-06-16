@@ -1,0 +1,26 @@
+.card {
+    border: 0;
+    border-radius: 0;
+} 
+
+
+
+.imgContainer img {
+    object-fit: scale-down;
+}
+
+.card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: medium;
+}
+
+
+footer a {
+    color: white !important;
+}
+
+body > footer > div.row.p-4 > ul {
+    padding-right: 0;
+}

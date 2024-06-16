@@ -1,0 +1,11 @@
+td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px; 
+}
+
+
+#products > tbody > tr:hover {
+    background-color: grey !important;
+}
